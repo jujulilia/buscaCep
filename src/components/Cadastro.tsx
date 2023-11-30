@@ -20,8 +20,8 @@ const Cadastro = () => {
 
     const cadastrarUsuario = (e: FormEvent) => {
         setNomeErro("")
-        setEmail("")
-        setCpf("")
+        setEmailErro("")
+        setCpfErro("")
         setPasswordErro("")
             e.preventDefault();
 
